@@ -1,0 +1,54 @@
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+body{
+  background-image: url(https://img.freepik.com/free-photo/blue-office-stationery-set-with-laptop_23-2147843325.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1{
+  text-align: center;
+  margin-left: 150px;
+  font-family:cursive;
+  
+}
+label{
+  font-size: 20px;
+  font-weight: 1000;
+}
+.form{
+  margin-left: 100px;
+  margin-bottom: 250px;
+}
+.Setinp{
+  margin-left: 200px;
+}
+.form-Details{
+  text-align: center;
+  justify-content: center;
+}
+.inp{
+  margin-top: 30px;
+  padding: 15px;
+  width: 500px;
+  justify-content: center;
+  border-radius: 10px;
+  
+}
+
+#btn{
+  margin-top: 30px;
+  height: 50px;
+  width: 200px;
+  margin-left: 50px;
+  background-color: red;
+  color: white;
+  
+}
+
+.Myinp{
+  margin-right: 550px;
+}
