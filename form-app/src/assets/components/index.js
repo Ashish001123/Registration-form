@@ -8,7 +8,7 @@ const app = express();
 
 app.use(cors());
 
-app.use(bodyParser.json); 
+app.use(bodyParser.json()); 
 
 app.post("/saveData", (req, res) => {
     try {
@@ -16,10 +16,10 @@ app.post("/saveData", (req, res) => {
         
         let data2 = req.body;
         console.log("Data to save:", data2);
-        res.send("ok");
+        res.status(200).send({message : "ok"});
     } catch (error) {
         console.error("Error processing request:", error);
-        res.status(500).send("Server error");
+        res.status(500).send({message : "Server error"});
     }
 });
 
